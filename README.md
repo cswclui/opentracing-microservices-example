@@ -1,7 +1,4 @@
 # opentracing-microservices-example
-# Overview
-This example microservice stack is adapted from 
-- https://medium.com/xebia-engineering/jaeger-integration-with-spring-boot-application-3c6ec4a96a6f
 
 ## Build docker images 
 
@@ -25,3 +22,11 @@ This example microservice stack is adapted from
 
 View the jaegar app.
 http://localhost:9090
+
+# Reference
+
+This example microservice stack is adapted from 
+- https://medium.com/xebia-engineering/jaeger-integration-with-spring-boot-application-3c6ec4a96a6f
+
+Additional references
+- https://shekhargulati.com/2019/04/08/a-minimalistic-guide-to-distributed-tracing-with-opentracing-and-jaeger/
