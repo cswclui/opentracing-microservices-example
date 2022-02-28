@@ -44,6 +44,14 @@ class ScientistNameResource {
 
     @GetMapping(path = "/random")
     public String name(@RequestHeader HttpHeaders headers) {
+       //delay for 2 seconds
+        try {
+            Thread.sleep(2000);
+        }
+        catch(InterruptedException ex) {
+            Thread.currentThread().interrupt();
+        }
+         
         String name = scientistsNames.get(random.nextInt(scientistsNames.size()));
         return name;
     }
